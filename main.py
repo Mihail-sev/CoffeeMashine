@@ -35,8 +35,9 @@ def start_menu():
 
     def main_menu():
         nonlocal resources
-        user_drink = input("What did you like? (espresso/ latte/ cappuccino)\n").lower()
+        user_drink = input(f"What did you like? (espresso(${MENU['espresso']['cost']})/latte(${MENU['latte']['cost']})/ cappuccino(${MENU['cappuccino']['cost']}))\n").lower()
 
+        
         def coin_accept():
             quarters = int(input("How many quarters?"))
             dimes = int(input("How many dimes?"))
