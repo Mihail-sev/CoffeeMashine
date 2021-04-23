@@ -1,3 +1,3 @@
 # CoffeeMashine
 
-https://replit.com/@MihailShmatok/CoffeeMashineembed=1&output=1#main.py
+https://replit.com/@MihailShmatok/CoffeeMashine?embed=1&output=1#main.py
